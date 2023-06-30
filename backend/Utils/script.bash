@@ -13,9 +13,6 @@ if [ $URL ]
                             cd $PHONE_LOCATION
                         fi
                     echo $(spotdl --audio slider-kz youtube-music youtube --bitrate 256k $URL) 
-                    else 
-                        exit 1
-                    fi
         else 
             echo "spotdl is not installed on your system"
         fi
