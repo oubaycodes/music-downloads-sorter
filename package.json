@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./backend/app.js "
+    "start": "nodemon ./backend/app.js ",
+    "dependencies": "sh ./backend/Utils/dependencies.bash"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +13,6 @@
     "create-expo-app": "^2.0.1",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "shelljs": "^0.8.5",
-    "valid-url": "^1.0.9"
+    "shelljs": "^0.8.5"
   }
 }
