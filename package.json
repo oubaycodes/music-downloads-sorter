@@ -16,7 +16,8 @@
     "node": "^20.5.0",
     "shelljs": "^0.8.5",
     "spotify-uri": "^4.0.0",
-    "spotify-web-api-node": "^5.0.2"
+    "spotify-web-api-node": "^5.0.2",
+    "zip-lib": "^0.7.3"
   },
   "devDependencies": {
     "@types/shelljs": "^0.8.12"

@@ -3,7 +3,7 @@ const shell = require("shelljs");
 const spotifyAccess = require(`${__dirname}/../models/spotifyAccess`);
 const spotifyUri = require("spotify-uri");
 const createSongObject = require(`${__dirname}/../modules/createSongObj`);
-
+const writeDir = "C:\\Users\\Surface\\Music\\Waitlist";
 exports.getSongList = async (req = "", res = "") => {
   try {
     const playlistUrl = req.body.url;
@@ -52,7 +52,7 @@ exports.downloadPlaylist = async (req, res) => {
     });
   }
 };
-exports.downloadPlaylist = async (req, res) => {
+exports.downloadSong = async (req, res) => {
   try {
     const songUrl = req.body.url;
 
