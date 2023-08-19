@@ -1,7 +1,6 @@
 #!/bin/bash
 URL=$1
-
-PHONE_LOCATION=/run/user/1000/9c489d89_4d67_43cc_a5dc_a5b4f1594787/primary/Waitlist/
+LOCATION=/home/oub/Music/Music-Waitlist/
 
 DOWNLOAD() {
 if [ $(command -v spotdl) ]
@@ -19,9 +18,9 @@ fi
 }
 if [ $URL ]
     then
-        if [ -d $PHONE_LOCATION ]
+        if [ -d $LOCATION ]
         then
-            cd $PHONE_LOCATION
+            cd $LOCATION
         fi
 DOWNLOAD
 fi
